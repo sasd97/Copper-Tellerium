@@ -1,0 +1,54 @@
+body {
+    min-height: 100%;
+    font-family: 'Annie Use Your Telescope', cursive;
+    background-image: linear-gradient( 135deg, #FFF6B7 0%, #F6416C 100%);
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    min-height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    width: 100%;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+.group {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.card {
+    display: flex;
+    width: 150px;
+    height: 200px;
+    background: #FCFFFB;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.element-number {
+    color: #E54942;
+    font-size: 1.0em;
+}
+
+.element-title {
+    color: #E51F19;
+    font-size: 4.0em;
+    font-style: bold;
+    align-self: center;
+}
+
+.element-weight {
+    color: #E54942;
+    align-self: flex-end;
+}
